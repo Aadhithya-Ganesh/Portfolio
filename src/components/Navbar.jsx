@@ -1,7 +1,6 @@
 import { Code2, Menu, X } from "lucide-react";
 import { motion } from "motion/react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 const navItems = [
   { label: "About", href: "#about" },

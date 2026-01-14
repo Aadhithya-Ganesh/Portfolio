@@ -57,8 +57,6 @@ const Skills = () => {
 
               <div className="flex flex-wrap gap-4">
                 {skills.map((label) => {
-                  console.log(label, skillIconMap[label]);
-
                   return (
                     skillIconMap[label] && (
                       <SkillIcon
